@@ -12,6 +12,7 @@
    <link rel="stylesheet" type="text/css" href="assets/css/custom-style.css" />
    <!-- Favicon  -->
    <link rel="icon" href="assets/images/favicon.ico" />
+   <link rel="stylesheet" type="text/css" href="assets/css/how-it-works.css">
 </head>
 
 <body id="myPage">
@@ -301,7 +302,7 @@
       <!--./container-->
 
       <!--howItWork-section - Start-->
-      <div class="howItWork-section slideanim">
+      <div class="howItWork-section slideanim d-none">
          <div class="container">
             <div class="page-header">
                <h1 class="aboutUs-title">HOW IT WORKS
@@ -449,6 +450,103 @@
          <!--./container-->
       </div>
       <!--./howItWork-section - End-->
+
+
+      <!-- howItWork-section 2 - Start -->
+      <div id="process" class="section-padding">
+         <div class="container">
+            <div class="row">
+               <div class="column small-12 xlarge-10 xlarge-offset-1">
+                  <div class="section-heading white">
+                     <h3 class="heading">How it Works</h3>
+                     <span class="line"></span>
+                     <a class="button image-button white" href="https://www.youtube.com/watch?v=sXFmKquiVnk" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/images/youtube.4172e238.svg" alt="Watch Intro">
+                        <span>Watch Intro</span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="step-content row">
+               <div class="column small-12 large-6 xlarge-4 xlarge-offset-1">
+                  <div class="info">
+                     <h5 class="heading">Distribute via OpenGrid</h5>
+                     <p class="description">
+                        Upon submission, the model is encrypted/shared and uploaded to an OpenGrid network.
+                        This could be a private network within an enterprise or the public OpenGrid our community actively supports.
+                     </p>
+                     <div>
+                        <p class="contribute">Contribute</p>
+                        <ul class="repos">
+                           <li>
+                              <a href="https://github.com/OpenMined/Grid" target="_blank" rel="noopener noreferrer">
+                                 <div class="icon">
+                                    <img src="assets/images/grid.01b839c4.svg" class="repo-icon grid" alt="Grid">
+                                 </div>
+                                 <span class="name">Grid</span>
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="column small-12 large-6 xlarge-5 xlarge-offset-1">
+                  <div class="graph">
+                     <style>
+                        @keyframes move-dots-horizontal-forwards {
+                           from { transform: translateX(0px); }
+                           to { transform: translateX(24px); }
+                        }
+                     </style>
+                     <style>
+                        @keyframes move-dots-horizontal-backwards {
+                           from { transform: translateX(24px); }
+                           to { transform: translateX(0px); }
+                        }
+                     </style>
+                     <ul class="nodes">
+                        <li class="node icon scientist inactive">
+                           <img src="assets/images/logo-square-color.2b2fb62b.svg" class="repo-icon openmined" alt="openmined">
+                        </li>
+                     </ul>
+                     <div class="dots hidden"></div>
+                     <ul class="nodes">
+                        <li class="node has-children small grid active blinking"></li>
+                        <li class="node has-children big grid active blinking"></li>
+                        <li class="node icon grid active blinking">
+                           <img src="assets/images/grid.01b839c4.svg" class="repo-icon grid" alt="grid">
+                        </li>
+                        <li class="node has-children big grid active blinking"></li>
+                        <li class="node has-children small grid active blinking"></li>
+                     </ul>
+                     <div class="dots hidden"></div>
+                     <ul class="nodes">
+                        <li class="node icon mines inactive">
+                           <img src="assets/images/mine.63c4a4b6.svg" class="repo-icon mine" alt="mine">
+                        </li>
+                        <li class="node icon mines inactive">
+                           <img src="assets/images/mine.63c4a4b6.svg" class="repo-icon mine" alt="mine">
+                        </li>
+                        <li class="node icon mines inactive">
+                           <img src="assets/images/mine.63c4a4b6.svg" class="repo-icon mine" alt="mine">
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="step-selector">
+            <div class="step-progress" style="animation: progress 25s linear 0s infinite normal none running;"></div>
+            <ul class="step-selector-list">
+               <li class="step-item ">Create</li>
+               <li class="step-item active">Distribute</li>
+               <li class="step-item ">Train</li>
+               <li class="step-item ">Reward</li>
+               <li class="step-item ">Deliver</li>
+            </ul>
+         </div>
+      </div>
+      <!-- ./howItWork-section 2 - End -->
 
       
 
