@@ -76,9 +76,6 @@
         b = r(_);
     e.Async = a.default, e.BackgroundGradient = u.default, e.Button = c.default, e.Input = h.default, e.Heading = d.default, e.Page = y.default, e.Progress = g.default, e.Switch = b.default
 }, function(t, e, n) {
-    console.log(t)
-    console.log(e)
-    console.log(n)
     "use strict";
     var r = function(t, e, n, r, i, o, a, s) {
         if (!t) {
