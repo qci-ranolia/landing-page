@@ -3302,7 +3302,7 @@ strong {
     color: gray;
     font-size: 1.1rem;
     line-height: 2.25rem;
-    max-height: 175px;
+    max-height: 215px;
     overflow: hidden
 }
 
@@ -7521,10 +7521,10 @@ body {
 #header .header-items li.logo {
     width: 100%;
     height: 100%;
-    padding: 4px 0 0;
+    padding: 10px 0 0;
 }
 #header {
-    height: 80px !important;
+    height: 90px !important;
 }
 .logoTextCnt{
     color: #222;
